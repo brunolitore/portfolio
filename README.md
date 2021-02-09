@@ -1,2 +1,2 @@
 # portfolio
-o projeto do meu portfolio pessoal
+my personal portfolio site
