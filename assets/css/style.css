@@ -66,6 +66,10 @@ hr {
     grid-gap: 50px;
     text-align: left;
 }
+.projects {
+    display: grid;
+    text-align: center;
+}
 footer {
     position: fixed;
     margin-top: 3%;
