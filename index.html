@@ -13,7 +13,7 @@
             <div class="menus">
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="#projects">Portfolio</a></li>
                     <li><a href="contact-me.html">Contato</a></li>
                 </ul>
             </div>
@@ -24,21 +24,40 @@
                 <i class="fa fa-linkedin"></i>
             </div>
         </nav>
-        <section class="header">
+        <section id="welcome-section" class="header">
             <h1>Oi, me chamo Bruno</h1>
             <h4>desenvolvo interfaces front end, esse site é para mostrar um pouco do meu conteúdo, fique a vontade!</h4>
-        </section>
             <hr>
-            <div class="about-me">
-                <h3>Sobre mim:</h3>
-                <h4>meu nome é Bruno, sou formado em Sistemas de Informação pela Universidade Estácio de Sá, trabalho
-                    com desenvolvimento front end desde 2019, as tecnologias que mais utilizo são HTML, CSS e JavaScript 
-                    e estou começando a experimentar frameworks como React.js e Next.js, também procuro sempre 
-                    me aprimorar em UI/UX e apesar de não ser designer consigo trabalhar com ferramentas gráficas e de vetores 
-                    tendo mais familiaridade com Gimp e Inkscape.
-                </h4>
+        </section>
+        <div class="about-me">
+            <h3>Sobre mim:</h3>
+            <h4>
+                meu nome é Bruno, sou formado em Sistemas de Informação pela Universidade Estácio de Sá, trabalho
+                com desenvolvimento front end desde 2019, as tecnologias que mais utilizo são HTML, CSS e JavaScript 
+                e estou começando a experimentar frameworks como React.js e Next.js, também procuro sempre 
+                me aprimorar em UI/UX e apesar de não ser designer consigo trabalhar com ferramentas gráficas e de vetores 
+                tendo mais familiaridade com Gimp e Inkscape.
+            </h4>
+        </div>
+        <section id="projects" class="projects-session">
+            <h2 class="projects-session-header">Aqui estão algumas coisas que desenvolvi</h2>
+            <div class="projects-grid">
+                <a 
+                href="https://codepen.io/brunolitore/live/oNBPrVz"
+                target="_blank"
+                class="project project-title">
+                    <img class="project-image" src="./assets/images/tribute-page-thumb.jpeg" alt="projeto">
+                    <p class="project-title">Tribute Page</p>
+                </a>
+                <a 
+                href="https://ss-simplestopwatch.vercel.app"
+                target="_blank"
+                class="project project-title">
+                    <img class="project-image" src="./assets/images/stopwatch-thumb.jpeg" alt="projeto">
+                    <p class="project-title">Stopwatch in JavaScript</p>
+                </a>
             </div>
-        </section>        
+        </section>
         <footer>
             <p>&copy; 2021 Bruno Dias. Todos os direitos reservados.</p>
         </footer>
