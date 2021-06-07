@@ -45,6 +45,10 @@ h1 {
 h3, h4 {
     font-weight: 100;
 }
+.warning {
+    font-style: italic;
+    font-size: 14px;
+}
 hr {
     width: 70%;
     margin-left: auto;
